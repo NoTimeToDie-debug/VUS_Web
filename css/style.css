@@ -67,4 +67,10 @@
 #catalogue .catalogue_item {
     width: 25%;
     text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#catalogue .catalogue_item img {
+    width: 100%;
 }
