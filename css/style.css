@@ -31,10 +31,40 @@
 #header a {
     text-decoration: none;
     color: #909191;
+    font-size: 18px;
 }
 
 /* Carousel */
 #carousel img {
     width: 100%;
     background-size: cover;
+}
+
+/* Introduction */
+#introduction {
+    text-align: center;
+}
+
+#introduction p {
+    font-size: 16px;
+    color: #919090;
+}
+
+/* Catalogue */
+#catalogue .catalogue_title {
+    text-align: center;
+}
+
+#catalogue .catalogue_list {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#catalogue .catalogue_list h4 {
+    color: #fa0000;
+}
+
+#catalogue .catalogue_item {
+    width: 25%;
+    text-align: center;
 }
