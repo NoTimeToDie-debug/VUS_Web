@@ -1,4 +1,6 @@
-/* Header */
+* {
+    box-sizing: border-box;
+}
 .float_left {
     float: left;
 }
@@ -68,9 +70,121 @@
     width: 25%;
     text-align: center;
     padding: 20px;
-    box-sizing: border-box;
 }
 
 #catalogue .catalogue_item img {
     width: 100%;
 }
+
+#events .events_title {
+    text-align: center;
+}
+
+#events .events_list {
+    height: 615px;
+}
+
+#events .events_item_left {
+    position: relative;
+    height: 100%;
+    background-image: url(./../images/tin_tuc_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#events .events_item_title {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0px;
+    height: 80px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+#events .padding_list {
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+}
+
+#events .events_list .padding_left {
+    padding: 20px 0;
+    width: 50%;
+    height: 100%;
+}
+
+#events .events_item1 {
+    font-size: 30px;
+}
+#events .events_item_right {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+#events .events_item_right_top,
+.events_item_right_bottom {
+    height: 50%;
+}
+
+#events .events_item2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(./../images/tin_tuc_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#events .events_item3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(./../images/tin_tuc_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#events .events_item4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(./../images/tin_tuc_4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#events .events_item5 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(./../images/tin_tuc_5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#footer {
+    background-color: #b32020;
+    height: 150px;
+    padding: 30px;
+}
+
+#footer .footer_logo {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#footer .footer_address {
+    height: 100%;
+    width: 50%  ;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
